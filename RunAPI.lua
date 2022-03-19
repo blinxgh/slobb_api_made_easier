@@ -1,0 +1,10 @@
+local api = require(script.Parent.API)
+
+api:print("hello", "arg1")
+api:SetWalkspeed(100)
+api:CreateGui("test")
+api:SetJumpPower(100)
+api:discord_link()
+api:send_message("")
+api:get_version()
+api:get_exploit()
